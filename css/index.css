@@ -1,0 +1,355 @@
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Regular.woff2') format('woff2');
+    /* font-weight: 400; */
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NoonnuBasicGothic';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noon-2410@1.0/NoonnuBasicGothicRegular.woff2') format('woff2');
+    font-weight: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'MaruBuri';
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Regular.woff2);
+    font-weight: 400;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'MaruBuri';
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-SemiBold.woff2);
+    font-weight: 400;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'MaruBuri';
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Bold.woff2);
+    font-weight: 400;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Cafe24ClassicType';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2210-2@1.0/Cafe24ClassicType-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ChosunIlboMyungjo';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Chosunilbo_myungjo.woff') format('woff');
+    font-weight: normal;
+    font-display: swap;
+}
+
+p{
+    margin: 0;
+}
+image{display: block;}
+
+
+body{
+    max-width: 440px;
+    width: 100%;
+    display: flex;
+    margin: 0px auto;
+    justify-content: center;
+     font-family: 'Pretendard',"Noto Sans KR", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    flex-direction: column;
+    line-height: 1;
+}
+div.page{
+  
+    padding: 30px 20px 0;
+}
+
+.page-1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #003778;
+    position: relative;
+}
+.page-1 span.sub{
+    font-family: 'Cafe24ClassicType';
+    font-size: 14px;
+    position: relative;
+}
+
+.page-1 span.sub::before{
+    content: "";
+    width: 100px;
+    height: 1px;
+    background-color: #003778;
+    display: block;
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+}
+
+.page-1 span.sub::after{
+    content: "";
+    width: 100px;
+    height: 1px;
+    background-color: #003778;
+    display: block;
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    right: 0;
+}
+.page-1 h1{
+    font-family: 'ChosunIlboMyungjo';
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 45px;
+    color: #003778;
+    margin: 50px 0 55px;
+    /* letter-spacing: -2px */
+}
+.page-1 .image {
+    position: relative;
+}
+.page-1 .image span{
+    position: absolute;
+    display: block;
+}
+.page-1 .image span.deco1{
+      width: 80px;
+    bottom: 54px;
+    right: 15px
+   
+}
+.page-1 .image span.deco2{
+    right: 30px;
+    top: -30px;
+    width: 120px;
+}
+.page-1 .image span.deco3{
+    width: 90px;
+    top: 105px;
+    left: -21px;
+}
+.page-1 img{
+    width: 100%;
+}
+
+.page-1 .image p{
+    font-size: 80px;
+    width: 100%;
+    margin-top: -100px;
+    line-height: 1;
+    font-weight: bold;
+    font-family: "Italianno", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #003778;
+
+}
+.page-1 .info{
+    text-align: center;
+    margin-top: 50px;
+     color: #022B5E;
+}
+
+.page-1 .info p.name{
+    font-family: 'MaruBuri';
+    font-size: 22px;
+    margin-bottom: 15px;
+    line-height: 1.5;
+   
+}
+.page-1 .info p.date{
+    letter-spacing: -0.5px;
+}
+.page-1 .info p.date::before{
+    content: "";
+    display: block;
+    width: 30px;
+    height: 2px;
+    background: #022B5E;
+    left: 50%;
+    margin: 0 auto 15px;
+}
+.page-1 .info p.comm{
+    margin-top: 20px;
+    line-height: 1.5;
+}
+
+.page-2.page{
+    text-align: center;
+    padding: 100px 0 0 0;
+}
+
+.page-2 .title p{
+    color: #022B5E;
+    font-family: 'MaruBuri';
+    line-height: 1.5;
+
+    font-size: 15px;}
+
+.page-2  .image-box{
+    margin-top: 40px;
+}
+.page-2  .image-box img{
+    width: 100%;
+}
+
+.page-2 .text-box{
+    padding: 50px 20px;
+    width: 270px;
+    margin: 0 auto;
+}
+
+.page-2 .text-box p{
+    font-family: 'MaruBuri';
+    font-size: 15px;
+    color: #4A4A4D;
+    margin-bottom: 25px;
+    line-height: 1.9;
+}
+
+.page-2 .text-box p.afterbox{
+
+    position: relative;
+}
+
+.page-2 .text-box p.afterbox::after{
+    content: "";
+    position: absolute;
+    width:25px;
+    height: 1px;
+    background-color: #4A4A4D;
+    left: 45%;
+    bottom: -20px;
+}
+
+/* .page-2 .text-box  >p span{
+    font-size: 14px;
+}
+.page-2 .text-box p span:first-child{
+    display: inline-block;
+    margin-right: 10px;
+} */
+.page-2 .namebox{
+     font-family: 'MaruBuri';
+}
+.page-2 .namebox p{
+    margin-bottom: 0;
+}
+
+.page-2 .namebox p:first-child{
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.page-2 .namebox p span{
+    display: inline-block;
+    width: 104px;
+    margin-left: -30px;
+}
+
+div.page-3.page{
+    height: auto;
+}
+.page-3 .loca-info {
+    text-align: center;
+}
+
+.page-3 .loca-info p:first-child{color: #022B5E; font-size: 22px; font-weight: 600; margin-bottom: 25px;}
+.page-3 .loca-info p.time{color: #6B6B6B;}
+.page-3 .loca-info p.location{
+    color: #6B6B6B;
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.page-3 .loca-info p.location span{
+    display: block;
+    margin: 5px 0;
+    font-size: 16px;
+    font-weight: normal;
+}
+.page-3 button{
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    width: auto;
+}
+.page-3 .copy-btn{
+    color: #529CFF;
+    margin-left: 5px;
+}
+
+.page-3 .image{
+    margin-top: 50px;
+}
+.page-3 .image img{
+    width: 100%;
+}
+.page-3 .calendar{
+    text-align: center;
+    background-color: #fff;
+    padding: 20px 20px 30px;
+    font-family: 'MaruBuri';
+}
+
+.page-3 .calendar{
+    margin-top: 10px;
+}
+.page-3 .calendar .month{
+    font-size: 22px;
+    padding: 10px 0;
+    color: #022B5E;
+}
+.page-3 .week{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0;
+}
+
+.page-3 .week .day:first-child{
+    color: #022B5E;
+}
+
+.page-3 .date{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.page-3 .date div{
+    display: flex;
+    width: 100%;
+    justify-content: center;  
+}
+
+.page-3 .date div.weekly{
+    margin-bottom: 22px;
+}
+.page-3 .date div.date5{margin: 0;}
+.page-3 .date div.weekly div{
+    font-size: 15px;
+}
+.page-3 .date div.weekly div:first-child{
+    color: #022B5E;
+}
+.page-3 .date .weekly .dueday{color: #eee; position: relative; z-index: 1;}
+.page-3 .date .weekly .dueday::after{
+   
+    content: "";
+    width: 31px;
+    height: 31px;
+    display: block;
+    background-color: #022B5E;
+    border-radius: 50%;
+    position: absolute;
+    z-index: -999;
+      top: 0;
+    /* bottom: 0; */
+    left: 0;
+    transform: translate(28%, -26%);
+}
+
